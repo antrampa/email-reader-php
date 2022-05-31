@@ -10,7 +10,7 @@ if($sec != "XXXXXXXXXX"){
 
 // /https://www.techfry.com/php-tutorial/how-to-read-emails-using-php
 // Open IMAP Stream: imap_open()
-$mailbox = "{xxx.xxxxxxxx.xxx:993/imap/ssl}INBOX";//"billstopay@zanasoft.be"; 
+$mailbox = "{xxx.xxxxxxxx.xxx:993/imap/ssl}INBOX";
 $username = "xxxxxxxxxxx"; 
 $password = "xxxxxxxxxxx";
 $inbox = imap_open($mailbox, $username, $password) or die('Cannot connect to email: ' . imap_last_error());
